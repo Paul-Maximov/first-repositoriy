@@ -1,0 +1,23 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #d2c8c8; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+    color: #19e119; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+
+img{
+  display: block;              /* чтобы margin работал */
+  margin: 30px auto;           /* по центру */
+  max-width: 70%;              /* не вылезает за экран */
+  height: auto;                /* сохраняет пропорции */
+  border-radius: 20px;         /* скругление */
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.35),
+              0 0 60px rgba(120, 180, 255, 0.25); /* свечение */
+  border: 2px solid rgba(255, 255, 255, 0.18);    /* лёгкая рамка */
+}
